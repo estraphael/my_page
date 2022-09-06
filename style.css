@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container_cabecalho {
+    background: linear-gradient(lightblue, tomato);
+    line-height: 2.5em;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #fefefe;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.cabecalho_link-nav {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    line-height: 2em;
+}
+
+.cabecalho_link {
+    text-decoration: none;
+    color: #fefefe;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+main p {
+    margin: .5em 15%;
+}
+
+footer {
+    text-align: center;
+}
+
+footer legend {
+    margin: .5em 0;
+}
+
+.submit {
+    background: tomato;
+    color: #fefefe;
+    font-weight: bold;
+    border-color: tomato;
+    border-radius: 5px;
+}
+
