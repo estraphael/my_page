@@ -1,3 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: .8em;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -21,6 +29,15 @@ h2 {
     margin: 1em 0;
 }
 
+.foto {
+    background: rgb(29, 34, 38);
+    text-align: center;
+}
+
+.sobre, .carreira, .conquistas_pessoais, .projetos {
+    margin: 3em 0;
+}
+
 .cabecalho_link-nav {
     margin-top: 10%;
     display: flex;
@@ -42,8 +59,24 @@ main p {
     margin: .5em 15%;
 }
 
+.links {
+    text-decoration: underline;
+    color: #000;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 1em;
+}
+
+.sobre {
+    margin: 0;
+}
+
 footer {
     text-align: center;
+    margin: 24px 0;
+    padding: 24px;
+    font-weight: bold;
+    background: linear-gradient(lightblue, tomato);
 }
 
 footer legend {
@@ -56,5 +89,20 @@ footer legend {
     font-weight: bold;
     border-color: tomato;
     border-radius: 5px;
+}
+
+.topo_icon {
+    position: absolute;
+    right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:#fefefe;
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 769px) {
+    .foto {
+        background: #fefefe;
+    }
 }
 
